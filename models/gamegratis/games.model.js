@@ -20,6 +20,10 @@ const gamesSchema = new mongoose.Schema({
   game_url: {
     type: String,
   },
+  genre: {
+    type: String,
+    required: true,
+  },
   platform: {
     type: String,
     required: true,
